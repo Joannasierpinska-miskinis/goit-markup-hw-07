@@ -1,0 +1,48 @@
+.our-clients .container{
+    display: flex;
+    margin-top: 102px;
+    margin-bottom: 86px;
+    align-items: center;
+    justify-content: center;}
+
+    
+
+.border-box{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    display: block;}
+
+.client-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.client-logo{
+    width: 170px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.client-list > .client-logo:not(:last-child){
+    margin-right: 30px;
+}
+.icon-client{
+    fill: #afb1b8;
+    height: 60px;
+    width: 106px;
+}
+
+.icon-client:hover,
+.icon-client:focus  {
+    fill:var(--main-color);
+}
+.client-logo:hover,
+.client-logo:focus{
+    border: 1px solid var(--main-color);
+}
