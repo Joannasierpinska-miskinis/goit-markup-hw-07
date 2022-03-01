@@ -35,14 +35,14 @@ img {
   list-style: none;
 }
 .logo,
-.navigation-list-link,
-.address-phone-header,
-.address-mail-header,
+.menu__link,
+.header__phone,
+.header__mail,
 .footer-logo,
 .address-mail,
 .address-phone {
   text-decoration: none;
 }
-.accent {
+.logo_accent {
   color: var(--main-color);
 }
