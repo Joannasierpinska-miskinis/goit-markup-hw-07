@@ -34,15 +34,12 @@ img {
 .link {
   list-style: none;
 }
-.logo,
+
 .menu__link,
 .header__phone,
 .header__mail,
-.footer-logo,
-.address-mail,
-.address-phone {
+.address__mail,
+.address__phone {
   text-decoration: none;
 }
-.logo_accent {
-  color: var(--main-color);
-}
+

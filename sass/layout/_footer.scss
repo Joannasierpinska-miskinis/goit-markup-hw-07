@@ -9,22 +9,20 @@
 .footer .container {
   display: flex;
 }
-.footer-left-content {
+.footer__left {
   margin-right: 70px;
 }
 
-.footer-logo {
+.logo {
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #ffffff;
-  display: flex;
-  padding-top: 54px;
+  
 }
-.footer-headline {
+.footer__headline {
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -38,30 +36,30 @@
   margin-bottom: 20px;
   padding-top: 60px;
 }
-.address-list {
+.address__list {
   align-items: center;
   list-style: none;
   margin-top: 20px;
 }
 
-.adress-paragraf,
-.address-mail,
-.address-phone {
+.adress__paragraf,
+.address__mail,
+.address__phone {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
 
-.adress-paragraf {
+.adress__paragraf {
   color: #ffffff;
   margin-bottom: 9px;
 }
-.address-mail {
+.address__mail {
   margin-bottom: 9px;
 }
-.address-mail,
-.address-phone {
+.address__mail,
+.address__phone {
   color: rgba(255, 255, 255, 0.6);
 }
 
