@@ -327,7 +327,6 @@ textarea {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  color: #AFB1B8;
 }
 
 .social__link {
@@ -340,12 +339,8 @@ textarea {
   margin: 0 auto;
 }
 
-.social__link {
+.social__link .social_light {
   fill: #afb1b8;
-}
-
-.social__icon .social_light {
-  background-color: #fff;
 }
 
 .social__link:hover,
@@ -359,6 +354,7 @@ textarea {
   width: 20px;
   height: 20px;
   margin: 0 auto;
+  fill: #ffffff;
 }
 
 .social__icon:hover {
@@ -371,10 +367,6 @@ textarea {
 
 .social_dark {
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-.social__icon.social_dark {
-  fill: #ffffff;
 }
 
 .social_icon .social_dark:hover {
