@@ -63,19 +63,7 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.social-links-item:not(:last-child) {
-  margin-right: 10px;
-}
 
-.social-links-link.dark-background {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.social-icon.dark-background {
-  fill: #ffffff;
-}
-.social-links-link.dark-background:hover {
-  background-color: var(--main-color);
-}
 
 .newsletter {
   display: flex;
