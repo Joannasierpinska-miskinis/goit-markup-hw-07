@@ -5,12 +5,7 @@
   align-items: center;
 }
 
-.our-team .headline {
-  text-align: center;
 
-  margin-bottom: 50px;
-  padding-top: 94px;
-}
 .cards-box {
   display: flex;
   justify-content: center;
@@ -34,7 +29,7 @@
 .card:not(:last-child) {
   margin-right: 30px;
 }
-.photo-name {
+.card__name {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.187;
@@ -46,7 +41,7 @@
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.job-description {
+.card__description {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.187;

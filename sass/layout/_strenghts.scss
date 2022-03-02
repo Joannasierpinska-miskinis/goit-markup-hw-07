@@ -1,22 +1,15 @@
-.our-strenghts .container {
+.strenghts .container {
   display: flex;
   margin-top: 30px;
-  margin-bottom: 94px;
-}
-.box {
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-  display: block;
 }
 
-.logo-list {
+.symbol {
   display: flex;
   justify-content: center;
   list-style: none;
   margin-top: 94px;
 }
-.logo-item {
+.symbol__item {
   width: 270px;
   height: 120px;
   display: flex;
@@ -25,19 +18,20 @@
   background-color: #f5f4fa;
   border-radius: 4px;
 }
-.logo-list > .logo-item:not(:last-child) {
+.symbol__item:not(:last-child) {
   margin-right: 30px;
 }
 .strenghts-list {
   display: flex;
   justify-content: center;
   list-style: none;
-}
+  margin-bottom: 94px;
+  }
 
-.strenghts-list > .strenghts-items:not(:last-child) {
+.strenghts-list__item:not(:last-child) {
   margin-right: 30px;
 }
-.strenghts-list-title {
+.strenghts-list__title {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.143;
@@ -46,7 +40,7 @@
   margin-bottom: 10px;
   list-style: none;
 }
-.strenghts-list-item {
+.strenghts-list__description {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.714;
