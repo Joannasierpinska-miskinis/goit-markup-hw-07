@@ -361,12 +361,12 @@
             </ul>
         </div>
         
-            <form name="sign-up">
-                <label class="footer-headline nws-headline" for="email"><b>ZAPISZ SIĘ DO NEWSLETTERA</b></label>
+            <form class="form" name="sign-up">
+                <label class=" footer__headline footer__headline_nws" for="email"><b>ZAPISZ SIĘ DO NEWSLETTERA</b></label>
                <div class="newsletter">
-                    <input class="email-input" type="email" name="email" id="email" placeholder="E-mail" />
-                <button class="nws-button">
-                    <input class="newsletter-btn" type="submit" value="Zapisz się"/>
+                    <input class="newsletter__input" type="email" name="email" id="email" placeholder="E-mail" />
+                <button class="signUp">
+                    <input class="signUp__label" type="submit" value="Zapisz się"/>
                 <svg width="24px" height="24px" class="icon-icon-send">
                     <use href="./images/icons.svg#icon-icon-send"></use>
                 </svg>
@@ -378,30 +378,30 @@
     </footer>
     <div class="backdrop is-hidden"data-modal>
         <div class="modal">
-            <button type="button" class="close-btn" data-modal-close> 
+            <button type="button" class="close-button" data-modal-close> 
             <svg width="30px" height="30px"class="icon-close">
                 <use href="./images/sprite.svg#icon-close"></use>
             </svg></button>
             
-        <form name="form" autocomplete="on" novalidate>
-            <p class="form-name">Zostaw swoje dane w formularzu poniżej</p>
+        <form  class="form"name="form" autocomplete="on" novalidate>
+            <p class="form-label">Zostaw swoje dane w formularzu poniżej</p>
 
            <div class="inputs"> 
                <label for="user-name">Imię</label>
-                <input class="text-box name" type="name" name="name" id="user-name"/>
+                <input class="text-box text-box__name" type="name" name="name" id="user-name"/>
             
             <label for="user-tel">Telefon</label>
-                <input class="text-box phone" type="tel" name="phone-number" id="user-tel"/>
+                <input class="text-box text-box__phone" type="tel" name="phone-number" id="user-tel"/>
                 
             <label for="user-email">Email</label>
-                <input class="text-box email" type="email" name="email" id="user-email"/>
+                <input class="text-box text-box__email" type="email" name="email" id="user-email"/>
 
             <label for="user-comments">Komentarz</label>
                 <textarea name="comments" id="user-comments" rows="4" placeholder="Wprowadź tekst"></textarea>
     
             <label class="checkbox-text" >
                 <input type="checkbox" checked /> 
-                Oświadczam iż akceptuję <accent> Regulamin i Politykę Prywatności.</accent>
+                Oświadczam iż akceptuję <accent>Regulamin</accent> i <accent>Politykę Prywatności.</accent>
             </label>
             <button class="button" type="submit">Wyślij</button>
         </div>
