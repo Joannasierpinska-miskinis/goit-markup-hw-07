@@ -270,7 +270,7 @@ accent {
   font-weight: 700;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: var(--main-color);
   cursor: pointer;
   margin: 0 auto;
@@ -308,7 +308,7 @@ accent {
   line-height: 1.364;
   letter-spacing: 0.06em;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .headline {
