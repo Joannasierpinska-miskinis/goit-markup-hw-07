@@ -17,10 +17,12 @@
   justify-content: center;
   background-color: #f5f4fa;
   border-radius: 4px;
-}
-.symbol__item:not(:last-child) {
+
+  &:not(:last-child) {
   margin-right: 30px;
 }
+}
+
 .strenghts-list {
   display: flex;
   justify-content: center;

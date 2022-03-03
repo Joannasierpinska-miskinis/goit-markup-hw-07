@@ -399,6 +399,11 @@ accent {
   display: flex;
 }
 
+.header {
+  border-bottom: 1px solid #ececec;
+  display: block;
+}
+
 .navigation {
   display: flex;
 }
@@ -581,12 +586,12 @@ svg {
   margin-bottom: 94px;
 }
 
-.img-list__item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .img-list__item {
   position: relative;
+}
+
+.img-list__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .label {
@@ -831,11 +836,6 @@ svg {
 .newsletter__input:hover, .newsletter__input:focus {
   border: 1px solid #2196f3;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header {
-  border-bottom: 1px solid #ececec;
-  display: block;
 }
 
 .buttons {

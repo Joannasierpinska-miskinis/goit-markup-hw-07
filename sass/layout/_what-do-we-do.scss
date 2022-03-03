@@ -8,11 +8,12 @@
   list-style: none;
   margin-bottom: 94px;
 }
-.img-list__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .img-list__item {
   position: relative;
+  &:not(:last-child) {
+  margin-right: 30px;
+}
 }
 
 .label {
